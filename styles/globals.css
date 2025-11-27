@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #ffffff;
+    color: #1c1917; /* stone-900 */
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5f4; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4A32B; 
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #AA8222; 
+}
+
+/* Selection styles */
+::selection {
+  background-color: #F9F1D8; /* gold-100 */
+  color: #1c1917; /* stone-900 */
+}
+
+::-moz-selection {
+  background-color: #F9F1D8;
+  color: #1c1917;
+}
+
