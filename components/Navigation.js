@@ -73,7 +73,7 @@ export default function Navigation() {
               </button>
             </Link>
             <button 
-              onClick={() => window.open('https://example.com/order', '_blank')}
+              onClick={() => window.open('https://example.com/order', 'https://order.storekit.com/taste-of-asia/menu')}
               className={`px-6 text-xs font-bold uppercase tracking-[0.2em] transition-all duration-300 ${btnHeightClass} ${
                 (scrolled || !isHomePage) 
                   ? 'bg-gold-500 text-white hover:bg-slate-900' 
@@ -131,4 +131,5 @@ export default function Navigation() {
     </header>
   );
 }
+
 
